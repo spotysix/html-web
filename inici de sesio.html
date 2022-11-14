@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<link type="text/css" rel="stylesheet" href="CSS/hojaestiloiniciosesion.css">
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<title>Inici de Sesio</title>
+<link type="text/css" rel="stylesheet" href="CSS/hojaestiloiniciosesion.css">
+    <link rel="short cut icon" type="image/png" href="Imatges/logo.png" />
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <script src="Scripts/index.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - SpotySix</title>     
+</head>
+
+ 
+<body class="body">
+    <nav class="idioma">
+        <ul onclick="setLanguaje('en')">
+                <img src="Imatges/ingles.png" width="40" height="20" class="img" style="position: absolute; cursor: pointer; top: 10px; right: 60px;">                
+        </ul>
+
+        <ul onclick="setLanguaje('es')">
+            <img src="Imatges/espanol.jpg" width="40" height="20" class="img" style="position: absolute; cursor: pointer; top: 10px; right: 10px;">
+            </ul>
+    </nav>
+<header class="header">
+    <nav class="main-nav">
+        <header class="boton">
+            <boton> ☰ </boton>
+        </header>
+            <li class="nav-item">
+                <a class="es" href="index.html">Inicio</a>
+                <a class="en" href="index.html">Home</a>
+
+            </li>
+            <li class="nav-item">
+                <a class="es" href="playlists.html">Listas de Reproducción</a>
+                <a class="en" href="playlists.html">Playlists</a>
+            </li>
+            <li class="nav-item">
+                <a class="es" href="Atencio al client.html">Soporte al Cliente</a>
+                <a class="en" href="Atencio al client.html">Customer Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="es" href="inici de sesio.html">Iniciar sesion</a>
+                <a class="en" href="inici de sesio.html">Sign Up</a>
+
+            </li>
+    </nav>
+</header>
+</br>
+<br>
+</br> <br>
+</br> <br>
+</br> 
+ <br>
+</br>
+<p>
+<div class="b5">
+  <h1><a class="es">Iniciar sesion </a></h1>
+  <h1><a class="en">Log in </a></h1>
+</p>
+<p><a class="es">Nombre Usuario</a></p>
+<p><a class="en">Name User</a></p>
+<p><a class="es"><input type="text" name="Nom" placeholder="Introduzca su Nombre"></a></p>
+<p><a class="en"><input type="text" name="Nom" placeholder="Enter your name"></a></p>
+
+<p><a class="es">Email</a></p>
+<p><a class="en">Email</a></p>
+<a class="es"><input type="text" name="Email" placeholder="xxxxxx@gmial"></a>
+<a class="en"><input type="text" name="Email" placeholder="xxxxxx@gmial"></a>
+
+<p><a class="es">Contrasenya</a></p>
+<p><a class="en">Password</a></p>
+<a class="es"><input type="password" name="contraseña" placeholder="Introduzca su contraseña"></a>
+<a class="en"><input type="password" name="contraseña" placeholder="Enter your Password"></a>
+<br>
+ </br>
+ <a class="es"><input class="b8" type="button" value="Enviar" onclick="alert(d)"/></a>
+ <a class="en"><input class="b8" type="button" value="Send" onclick="alert(d)"/></a>
+</div>
+</br>
+<br>
+</br>
+ 
+<p>
+ <div class="b4">
+  <h1><a class="es">Registrarse</a></h1>
+  <h1><a class="en">Check in</a></h1>
+<div class="b4">  
+
+<br></br>
+<br></br>
+
+<div>
+<p><a class="es">Nombre</a></p>
+<p><a class="en">Name</a></p>
+<a class="es">
+<input type="text" id="txtName" placeholder="Introduzca su nombre" /></a>
+<a class="en">
+<input type="text" id="txtName" placeholder="Enter your name" /></a>
+</div>
+<p><a class="es">Apellido</a></p>
+<p><a class="en">Surname</a></p>
+<div>
+<a class="es"><input type="text" id="txtApellido" placeholder="Introduzca su apellido" /></a>
+<a class="en"><input type="text" id="txtApellido" placeholder="Enter your surname" /></a>
+</div>
+<p><a class="es">Email</p></a>
+<p><a class="en">Email</p></a>
+<div>
+<a class="es"><input type="text" id="txtEmail" placeholder="xxxxxx@gmial.com" /></a>
+<a class="en"><input type="text" id="txtEmail" placeholder="xxxxxx@gmial.com" /></a>
+</div>
+<p><a class="es">Numero</a></p>
+<p><a class="en">Number</a></p>
+<div>
+<a class="es"><input type="text" id="txtNumero" placeholder="Introduzca su numero" /></a>
+<a class="en"><input type="text" id="txtNumero" placeholder="Enter your number" /></a>
+
+</div>
+<p><a class="es">Contrasenya</a></p>
+<p><a class="en">Password</a></p>
+<a class="es"><input type="password" id="txtContrasenya" name="contraseña" placeholder="Introduzca una contraseña" ></a>
+<a class="en"><input type="password" id="txtContrasenya" name="contraseña" placeholder="Enter your password" ></a>
+<br>
+</br>
+
+
+<div >
+<a class="es" ><input class="b8" type="button" id="bt" value="Enviar" onclick="saveFile()"/></a></a>
+<a class="en"><input class="b8" type="button" id="bt" value="Send" onclick="saveFile()"/></a>
+</div>
+
+</div>
+</div>
+</div>
+<br></br>
+<br><br>
+</br><br>
+</br><br>
+</br><br>
+</br></br>
+<br></br>
+</br><br>
+
+
+</body>
+<script>
+let saveFile = () => {
+
+const name = document.getElementById('txtName');
+const apellido = document.getElementById('txtApellido');
+const email = document.getElementById('txtEmail');
+const number = document.getElementById('txtNumero');
+const password = document.getElementById('txtContrasenya');
+
+
+
+let data =
+'\r Name: ' + name.value + ' \r\n ' + 
+'Apellido: ' + apellido.value + ' \r\n ' +
+'Email: ' + email.value + ' \r\n ' +
+'Numero: ' +number.value + ' \r\n ' +
+'Password: ' + password.value + ' \r\n ';
+
+
+
+const textToBLOB = new Blob([data], { type: 'text/plain' });
+const sFileName = 'formData.txt';
+
+let newLink = document.createElement("a");
+newLink.download = sFileName;
+
+if (window.webkitURL != null) {
+newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+}
+else {
+newLink.href = window.URL.createObjectURL(textToBLOB);
+newLink.style.display = "none";
+document.body.appendChild(newLink);
+}
+
+newLink.click();
+}
+</script>
+</html>

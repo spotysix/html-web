@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Suport al client</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link type="text/css" rel="stylesheet" href="CSS/hojaestilocliente.css">
+<link type="text/css" rel="short cut icon" type="image/png" href="Imatges/logo.png" />
+    <link rel="stylesheet" href="CSS/index.css">
+    
+    <script src="Scripts/index.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - SpotySix</title>
+</head>
+
+<body class="body">
+    <nav class="idioma">
+        <ul onclick="setLanguaje('en')">
+                <img src="Imatges/ingles.png" width="40" height="20" class="img" style="position: absolute; cursor: pointer; top: 10px; right: 60px;">                
+        </ul>
+
+        <ul onclick="setLanguaje('es')">
+            <img src="Imatges/espanol.jpg" width="40" height="20" class="img" style="position: absolute; cursor: pointer; top: 10px; right: 10px;">
+            </ul>
+    </nav>
+
+<header class="header" <img src="Imatges/headerimage.jpg">
+    <nav class="main-nav">
+        <header class="boton">
+            <boton> ☰ </boton>
+        </header>
+            <li class="nav-item">
+                <a class="es" href="index.html">Inicio</a>
+                <a class="en" href="index.html">Home</a>
+
+            </li>
+            <li class="nav-item">
+                <a class="es" href="playlists.html">Listas de Reproducción</a>
+                <a class="en" href="playlists.html">Playlists</a>
+            </li>
+            <li class="nav-item">
+                <a class="es" href="Atencio al client.html">Soporte al Cliente</a>
+                <a class="en" href="Atencio al client.html">Customer Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="es" href="inici de sesio.html">Iniciar sesion</a>
+                <a class="en" href="inici de sesio.html">Sign Up</a>
+
+            </li>
+    </nav>
+</header>
+<br>
+</br>
+
+
+<h1 class="es">Soporte al Cliente</h1>
+<h1 class="en">Support</h1>
+</p>
+<br>
+</br>
+</div>
+</p>
+<br>
+</br>
+<br>
+</br>
+
+<div class="re2">
+<h2 ><p><a class="es"> Formulario:</a></p></h2>
+<h2 ><p><a class="en"> Forms:</a></p></h2>
+
+<p><a class="es">Nombre</a></p>
+<p><a class="en">Name</a></p>
+<div>
+<input type="text" id="txtName" placeholder="Introduzca su nombre" />
+</div>
+<p><a class="es">Genero</a></p>
+<p><a class="en">Gender</a></p>
+<p class="t1">
+<a class="es">
+<select id="selsexo">
+<option selected value="">-- Seleccione su Genero --</option>
+<option value="Hombre">Hombre</option>
+<option value="Mujer">Mujer</option>
+<option value="Sinespecificar">Sin especificar</option>
+</select>
+</a>
+<a class="en">
+    <select id="selsexo">
+    <option selected value="">-- Select you Gender --</option>
+    <option value="Hombre">Man</option>
+    <option value="Mujer">Woman</option>
+    <option value="Sinespecificar">Unspecific</option>
+    </select>
+    </a>
+</p>
+
+
+<p><a class="es">Edad</a></p>
+<p><a class="en">Age</a></p>
+
+<p>
+<a class="es">
+<select id="selEdad">
+<option selected value="">-- Seleccione su Edad --</option>
+<option value="Hombre">Menor</option>
+<option value="Mujer">Adulto</option>
+</select>
+</a>
+<a class="en">
+    <select id="selEdad">
+    <option selected value="">-- Select your age --</option>
+    <option value="Hombre">Minor</option>
+    <option value="Mujer">Adult</option>
+    </select>
+    </a>
+</p>
+
+
+<div >
+<div>
+<p><a class="es">Continente</a></p>
+<p><a class="en">Continent</a></p>
+
+<p class="t1">
+<a class="es">
+<select id="selContinente">
+<option selected value="">-- Selecciona su continente --</option>
+<option value="Hombre">Europa</option>
+<option value="Mujer">Asia</option>
+<option value="Africa">Africa</option>
+<option value="America">America</option>
+<option value="Oceania">Oceania</option>
+</select>
+</a>
+<a class="en">
+    <select  id="selContinente">
+    <option selected value="">-- Select your Continent --</option>
+    <option value="Hombre">Europa</option>
+    <option value="Mujer">Asia</option>
+    <option value="Africa">Africa</option>
+    <option value="America">America</option>
+    <option value="Oceania">Oceania</option>
+    </select>
+    </a>
+</p>
+
+</div>
+</div>
+
+<p><a class="es">Email</a></p>
+<p><a class="en">Email</a></p>
+<div>
+<input type="text" id="txtNumero" placeholder="xxxxxx@gmial.com" />
+</div>
+<p><a class="es">Numero</a></p>
+<p><a class="en">Number</a></p>
+
+<div class="es">
+<input type="text" id="txtEmail" placeholder="Introduzca su numero" />
+</div>
+<div class="en">
+    <input type="text" id="txtEmail" placeholder="Enter your number" />
+    </div>
+
+<div class="ma">
+<p><a class="es">Ticket</a></p>
+<p><a class="en">Ticket</a></p>
+<div class="es">
+<textarea id="msg" name="msg" rows="10" cols="40" placeholder="Porfavor indique el motivo de este formulario" style="height:100px"></textarea>
+</div>
+<div class="en">
+<textarea id="msg" name="msg" rows="10" cols="40" placeholder="Please indicate the reason for this form" style="height:100px"></textarea>
+</div>
+</div>
+
+<div class="es">
+<input class="m11" type="button" id="bt" value="Enviar" onclick="saveFile()" />
+</div>
+<div class="en">
+<input class="m11" type="button" id="bt" value="Send" onclick="saveFile()" />
+
+</div>
+</div>
+</div>
+
+
+</body>
+<script>
+let saveFile = () => {
+
+
+const name = document.getElementById('txtName');
+const numero = document.getElementById('txtNumero');
+const email = document.getElementById('txtEmail');
+const sex = document.getElementById('selsexo');
+const age = document.getElementById('selEdad');
+const continent = document.getElementById('selContinente');
+const msg = document.getElementById('msg');
+
+
+let data =
+'\r Sexo: ' + sex.value + ' \r\n ' + 
+'Name: ' + name.value + ' \r\n ' +
+'Numero: ' +numero.value + ' \r\n ' +
+'Email: ' + email.value + ' \r\n ' +
+'Continente: ' + continent.value + ' \r\n ' +
+'Edad: ' + age.value + ' \r\n ' +
+'Message: ' + msg.value;
+
+
+const textToBLOB = new Blob([data], { type: 'text/plain' });
+const sFileName = 'formData.txt';
+
+let newLink = document.createElement("a");
+newLink.download = sFileName;
+
+if (window.webkitURL != null) {
+newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+}
+else {
+newLink.href = window.URL.createObjectURL(textToBLOB);
+newLink.style.display = "none";
+document.body.appendChild(newLink);
+}
+
+newLink.click();
+}
+</script>
+</html>

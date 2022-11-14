@@ -1,0 +1,149 @@
+.body{
+  zoom: 90%;
+  background-image:url("../Imatges/backgroundimage.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100%;
+  max-height: fit-content;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  overflow-x: hidden;
+  color: white;
+}
+
+nav.main-nav{
+  display: inline-flex;
+  width: 15%;
+  text-decoration:none;
+  flex-direction: column;
+  color: white;  
+}
+
+.header{
+  background-image:url("../Imatges/headerimage.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  font-size: large;
+  color: white;
+}
+
+header.boton{
+  cursor: pointer;
+}
+
+.m11{
+  cursor: pointer;
+
+}
+.m11:hover{ 
+  background-color: black;
+  color: #ffffff;
+}
+h1 {
+text-align: center;
+color:#ffffff;
+margin-left: 0cm;
+padding: 10px 10px 10px 750px;
+}
+p.t1{
+    margin: 0px 60px;
+}
+p.u1{
+    padding: 0px 50px; ;
+}
+p {
+color:#ffffff;
+}
+
+a {
+color:#ffffff;}
+
+
+h2 {
+color:#ffffff;
+margin-left: 2cm;
+margin: 0px 10px 0px 10px;
+}
+
+p{
+margin-left: 2cm;}
+input {
+margin-left: 2cm;}
+textarea {
+margin-left: 2cm;}
+
+.wq{
+  padding: 0px 50%;
+}
+
+h2.re1{
+  margin: 0px 70px ;
+}
+div.re1{
+  width: 400px;
+  margin: 0px 0px 0px 900px;
+  box-sizing: border-box;
+  background-color: #595959; 
+  }
+  .po{
+    padding: 0px 140px 0px 0px;
+  }
+  .espai{
+   margin: 10px 70px;
+
+  }
+  h3{
+    padding: 0px 0px 0px 70px;
+    font-size: large;
+  }
+   
+ div.re2{
+   width: 600px;
+  height: 700px;
+  border: 100px; 
+  background-color: #595959;
+  margin:  0px 35%;
+  box-sizing: border-box;
+  
+  }
+
+  .button2 {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.boton1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #333333;
+  cursor: pointer;
+}
+
+.boton1:hover {
+  background-color: #333333;
+  color: white;
+}
+
+.boton2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #333333;
+  cursor: pointer;
+}
+
+.boton2:hover {
+  background-color: #333333;
+  color: white;
+}
